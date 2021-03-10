@@ -38,7 +38,7 @@ extern "C" {
 
 #include <string.h>
 #include <stdlib.h>
-
+#include <FreeRTOS_POSIX.h>
 #include "lws_config.h"
 
 /* place for one-shot opaque forward references */

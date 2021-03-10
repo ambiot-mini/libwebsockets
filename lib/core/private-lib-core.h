@@ -57,6 +57,7 @@
 
 #ifdef LWS_HAVE_SYS_TYPES_H
   //#include <sys/types.h>
+  #include <FreeRTOS_POSIX.h>
   #include <FreeRTOS_POSIX/sys/types.h>
 #endif
 #if defined(LWS_HAVE_SYS_STAT_H) && !defined(LWS_PLAT_OPTEE)
